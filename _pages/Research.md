@@ -5,6 +5,8 @@ permalink: /research/
 author_profile: true
 ---
 
+{% include base_path %}
+
 #### Working Papers
 
 - "[On LASSO for Predictive Regression](./files/papers/LSG_Lasso.pdf)," with [Ji Hyung Lee](https://sites.google.com/site/jihyung412/home) and [Zhentao Shi](https://zhentaoshi.github.io/). Conditionally accepted at  *Journal of Econometrics*. \[[arXiv](https://arxiv.org/abs/1810.03140)\][[code](https://github.com/zhan-gao/Alasso_Predictive_Regression)] *Last updated: Jan 2021*.
