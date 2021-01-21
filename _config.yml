@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Zhan Gao"
   avatar           : "profile.png"
-  bio              : "Ph.D. Student in Economics @ USC"
+  bio              : "Ph.D. Student in Economics"
   location         : "Los Angeles"
-  employer         :
+  employer         : "University of Southern California"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=cYUBC7AAAAAJ&hl=en&oi=ao"
   email            : "zhangao at usc dot edu"
