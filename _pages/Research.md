@@ -14,7 +14,7 @@ author_profile: true
 ## Publications
 
 - [2021] "[On LASSO for Predictive Regression](./LSG_Lasso.pdf)," with [Ji Hyung Lee](https://sites.google.com/site/jihyung412/home) and [Zhentao Shi](https://zhentaoshi.github.io/).  *Journal of Econometrics*, forthcoming.[[supplement](./LSG_Lasso_supp.pdf)\][[code](https://github.com/zhan-gao/Alasso_Predictive_Regression)\]\[[arXiv](https://arxiv.org/abs/1810.03140)\][[slides](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/alasso_slides_online.pdf)\]
-- [2020] "[Implementing Convex Optimization in R: Two Econometric Examples](./Gao_Shi_2020_main.pdf)," with [Zhentao Shi](https://zhentaoshi.github.io/). *Computational Economics*, forthcoming. [[supplement](./Gao_Shi_2020_main_supp.pdf)\][[code](https://github.com/zhan-gao/convex_prog_in_econometrics)]\[[arXiv](https://arxiv.org/abs/1806.10423)\]
+- [2020] "[Implementing Convex Optimization in R: Two Econometric Examples](https://link.springer.com/article/10.1007/s10614-020-09995-z)," with [Zhentao Shi](https://zhentaoshi.github.io/). *Computational Economics*, forthcoming. [[supplement](./Gao_Shi_2020_main_supp.pdf)\][[code](https://github.com/zhan-gao/convex_prog_in_econometrics)]\[[arXiv](https://arxiv.org/abs/1806.10423)\]
 
 ## Code
 
