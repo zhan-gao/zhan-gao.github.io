@@ -7,10 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-## Working Papers
-
-- "Identification and Estimation of Categorical Random Coefficient Models" with [M.Hashem Pesaran](http://www.econ.cam.ac.uk/people/emeritus/mhp1). *Draft coming soon.*
-
 ## Publications
 
 - [2021] "[On LASSO for Predictive Regression](./LSG_Lasso.pdf)," with [Ji Hyung Lee](https://sites.google.com/site/jihyung412/home) and [Zhentao Shi](https://zhentaoshi.github.io/).  *Journal of Econometrics*, forthcoming.[[supplement](./LSG_Lasso_supp.pdf)\][[code](https://github.com/zhan-gao/Alasso_Predictive_Regression)\]\[[arXiv](https://arxiv.org/abs/1810.03140)\][[slides](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/alasso_slides_online.pdf)\]
