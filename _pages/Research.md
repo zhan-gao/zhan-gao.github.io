@@ -18,3 +18,4 @@ author_profile: true
   - Implement Classified-Lasso proposed in  Su, Shi and Phillips (2016): ["Identifying latent structures in panel data"](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12560), *Econometrica*, *84*(6), 2215-2264.
 - R package [LasForecast]( https://github.com/zhan-gao/LasForecast) (*under development*)
   - Implement time series forecasting with Lasso-type shrinkage methods. 
+
