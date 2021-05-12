@@ -1,0 +1,254 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem} % Enumerate with [resume] option
+% \usepackage{fontspec} % Requires XeTeX
+\usepackage{sectsty} % Custom section fonts
+\usepackage{multicol} % for reference
+
+% % Comment the following lines to use the default Computer Modern font
+% % instead of the Palatino font provided by the mathpazo package.
+% % Remove the 'osf' bit if you don't like the old style figures.
+% \usepackage[T1]{fontenc}
+% \usepackage[sc,osf]{mathpazo}
+
+
+% Set your name here
+\def\name{Zhan Gao}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {econometrics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name $\,$  \today }
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+\setlist[enumerate]{itemsep=0.25em}
+
+\begin{document}
+
+% Place name at left
+{\Huge \bf \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  Department of Economics\\
+  University of Southern California\\
+  3620 S. Vermont Ave. Kaprielian Hall\\
+  Los Angeles, CA 90089-0253
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (424) 316-9216 \\
+    Email: & \href{mailto:zhangao@usc.edu}{\tt zhangao@usc.edu} \\
+    Github: & \href{https://github.com/zhan-gao}{\tt https://github.com/zhan-gao} \\
+    Homepage: & \href{https://zhan-gao.github.io}{\tt https://zhan-gao.github.io}
+  \end{tabular}
+\end{minipage}
+
+% \section*{Personal}
+
+% \begin{itemize}
+% \item Born on September 29, 1895.
+% \item United States Citizen.
+% \end{itemize}
+
+
+\subsection*{Education}
+
+\begin{itemize}
+  \item Ph.D. Economics, University of Southern California, 2023 (Expected).
+  \item M.Phil. Economics, The Chinese University of Hong Kong, 2018.
+  \item B.S. Mathematics, The Chinese University of Hong Kong, 2016.
+\end{itemize}
+
+\subsection*{Publications}
+\begin{enumerate}
+  \item Lee, J. H., Shi, Z., \& Gao, Z. (2021). On LASSO for predictive regression. forthcoming at \textit{Journal of Econometrics}.
+  \item Gao, Z., \& Shi, Z. (2021). Implementing Convex Optimization in R: Two Econometric Examples. forthcoming at {\it Computational Economics}.
+\end{enumerate}
+ 
+% \subsection*{Publications}
+% \begin{enumerate}[resume]
+% \end{enumerate}
+
+\subsection*{Coding Projects}
+
+\begin{itemize}
+  \item \texttt{R} package \href{https://github.com/zhan-gao/classo}{{\color{blue}\texttt{classo}}}: Implementing the Classifier-Lasso estimator.
+  \item \texttt{R} package \href{https://github.com/zhan-gao/LasForecast}{{\color{blue}\texttt{LasForecast}}}: Implementing Lasso-type methods for high-dimensional economic forecasting.
+\end{itemize}
+
+\subsection*{Experiences}
+
+% \subsubsection*{Research Assistant}
+
+
+\begin{itemize}
+  \item {
+    {\it Research Assistant}
+    \begin{itemize}
+      \item For Prof. Angelo Mele, Johns Hopkins University, 2021.
+      \item For Prof. Hashem Pesaran, University of Southern California, 2020.
+      \item For Prof. Hyungsik Roger Moon and Prof. Geert Ridder, University of Southern California, 2020.
+      \item For Prof. Zhentao Shi, The Chinese University of Hong Kong, 2015-18, 2020.
+      % \item For Prof. Kang Shi, The Chinese University of Hong Kong, 2018.
+      % \item For Engineering and Scientific Computing Center, Shenzhen Institute of Advanced Technology, Chinese Academy of Science, 2014.
+    \end{itemize}
+  }
+  \item {
+    {\it Teaching Assistant}
+    \begin{itemize}
+      \item University of Southern California
+      \begin{itemize}
+        \item ECON 613 {\it Economic and Financial Time Series} (Prof. Hashem Pesaran), Fall 2020.
+        \item ECON 419 {\it Advanced Econometrics} (Prof. Michael Leung), Fall 2019 \& Fall 2020.
+        \item ECON 457 {\it Financial Markets} (Prof. Ladan Masoudie) Spring 2020.
+        \item ECON 361 {\it Understanding Financial Crisis} (Prof. Juan Saavedra), Fall 2019.
+      \end{itemize}
+      \item The Chinese University of Hong Kong
+      \begin{itemize}
+        \item ECON 3121 {\it Introductory Econometrics} (Prof. Dinghai Xu), Spring 2018.
+        \item ECON 3410 {\it Financial Economics} (Prof. Kevin K. Tsui), Fall 2017.
+        \item ECON 1101/11 {\it Mathematical Economics I \& II} (Dr. Yung Chor Wing), Fall 2016 \& Spring 2017.
+      \end{itemize}
+    \end{itemize}
+  }
+\end{itemize}
+
+\subsection*{Honors \& Awards}
+
+\begin{itemize}
+\item Center for Applied Financial Economics Graduate Fellowship (USC), 2021.
+\item Dornsife Graduate School Fellowship (USC), 2018 - 2023.
+\item Postgraduate Studentship (CUHK), 2016 - 2018.
+\item Zhiyuan Scholarships (Soong Ch’ing-ling Funds),  2011 - 2015.
+\item Talent Development Scholarships (Hong Kong Government),  2014, 2016.
+\item 1978 Mathematics Alumnus Li Sze-lim Scholarships (CUHK), 2015.
+\item Champion of International Chinese Debating Competition (team member), 2014.
+\end{itemize}
+
+\subsection*{Professional Services}
+Organizing Committee: Southern California Graduate Conference in Applied Economics (SOCAE), 2020.
+
+\subsection*{Skills}
+
+\begin{itemize}
+  \item {\it Softwares and Programmings:} experienced in {\tt MATLAB} and {\tt R}; using {\tt Git} and {\tt Github} to manage and host source codes; familiar with {\tt Python}, {\tt Julia}, {\tt STATA}
+  \item {\it Languages:} Mandarin (native), English, Cantonese (fluent)
+\end{itemize}
+
+% \section*{\bf References}
+
+% \begin{itemize}
+%   \item {
+%     \href{https://dornsife.usc.edu/hyungsik-roger-moon/}{Prof. Hyungsik Roger Moon}
+%     \begin{itemize}
+%       \item Professor of Economics, University of Southern California\\
+%             Email: {\tt moonr@usc.edu}
+%     \end{itemize}
+%   }
+%   \item {
+%     \href{http://www.econ.cam.ac.uk/people/emeritus/mhp1}{Prof. M. Hashem Pesaran}
+%     \begin{itemize}
+%       \item John Elliot Distinguished Chair in Economics, and
+%       Director of USC Dornsife Center for Applied Financial Economics (CAFE), University of Southern California\\
+%       Fellow of Trinity College, and Emeritus Professor of Economics, University of Cambridge\\
+%       Email: {\tt pesaran@usc.edu}
+%     \end{itemize}
+%   }
+%   \item {
+%     \href{http://zhentaoshi.github.io}{Prof. Zhentao Shi}
+%     \begin{itemize}
+%       \item Associate Professor, The Chinese University of Hong Kong\\
+%       Email: {\tt zhentao.shi@cuhk.edu.hk}
+%     \end{itemize}
+%   }
+% \end{itemize}
+
+% \bigskip
+
+
+
+
+
+
+
+% \section*{Employment}
+
+% \begin{itemize}
+% \item Stanford University 1927--1931.
+% \item Columbia University 1931--1946.
+% \item University of North Carolina, 1946--1973.
+% \end{itemize}
+
+% Footer
+% \begin{center}
+%   \begin{footnotesize}
+%     Last updated: \today 
+%     % \href{\footerlink}{\texttt{\footerlink}}
+%   \end{footnotesize}
+% \end{center}
+
+\end{document}
