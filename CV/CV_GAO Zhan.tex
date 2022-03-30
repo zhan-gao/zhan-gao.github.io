@@ -35,7 +35,11 @@
 % The following metadata will show up in the PDF properties
 \hypersetup{
   colorlinks = true,
-  urlcolor = black,
+  % urlcolor = black,
+  % linkcolor=[rgb]{0.1333, 0.5451, 0.1333}, % Forest Green
+  % urlcolor=[rgb]{0.1333, 0.5451, 0.1333}, % Forest Green
+  linkcolor=[rgb]{0.6, 0.1058824, 0.1176471}, % usc red.
+  urlcolor=[rgb]{0.6, 0.1058824, 0.1176471},
   pdfauthor = {\name},
   pdfkeywords = {econometrics},
   pdftitle = {\name: Curriculum Vitae},
@@ -85,7 +89,7 @@
 \begin{document}
 
 % Place name at left
-{\Huge \bf \name}
+{\LARGE \bf \name}
 
 % Alternatively, print name centered and bold:
 %\centerline{\huge \bf \name}
@@ -93,17 +97,18 @@
 \vspace{0.25in}
 
 \begin{minipage}{0.45\linewidth}
-  Department of Economics\\
-  University of Southern California\\
+  Department of Economics, USC\\
+  % University of Southern California\\
   3620 S. Vermont Ave. Kaprielian Hall\\
   Los Angeles, CA 90089-0253
 \end{minipage}
 \begin{minipage}{0.45\linewidth}
   \begin{tabular}{ll}
-    Phone: & (424) 316-9216 \\
+    Phone: & +1 (424) 316-9216 \\
     Email: & \href{mailto:zhangao@usc.edu}{\tt zhangao@usc.edu} \\
-    Github: & \href{https://github.com/zhan-gao}{\tt https://github.com/zhan-gao} \\
-    Homepage: & \href{https://zhan-gao.github.io}{\tt https://zhan-gao.github.io}
+    % Github: & \href{https://github.com/zhan-gao}{\tt https://github.com/zhan-gao} \\
+    Homepage: & \href{https://zhan-gao.github.io}{\tt https://zhan-gao.github.io}\\
+    % Citizenship: & Permanent Resident, Hong Kong SAR, China \\
   \end{tabular}
 \end{minipage}
 
@@ -115,69 +120,106 @@
 % \end{itemize}
 
 
-\subsection*{Education}
-
-\begin{itemize}
-  \item Ph.D. Economics, University of Southern California, 2023 (Expected).
-  \item M.Phil. Economics, The Chinese University of Hong Kong, 2018.
-  \item B.S. Mathematics, The Chinese University of Hong Kong, 2016.
-\end{itemize}
-
-\subsection*{Publications}
-\begin{enumerate}
-  \item Lee, J. H., Shi, Z., \& Gao, Z. (2021). On LASSO for predictive regression. forthcoming at \textit{Journal of Econometrics}.
-  \item Gao, Z., \& Shi, Z. (2021). Implementing Convex Optimization in R: Two Econometric Examples. forthcoming at {\it Computational Economics}.
-\end{enumerate}
- 
-% \subsection*{Publications}
-% \begin{enumerate}[resume]
-% \end{enumerate}
-
-\subsection*{Coding Projects}
-
-\begin{itemize}
-  \item \texttt{R} package \href{https://github.com/zhan-gao/classo}{{\color{blue}\texttt{classo}}}: Implementing the Classifier-Lasso estimator.
-  \item \texttt{R} package \href{https://github.com/zhan-gao/LasForecast}{{\color{blue}\texttt{LasForecast}}}: Implementing Lasso-type methods for high-dimensional economic forecasting.
-\end{itemize}
-
-\subsection*{Experiences}
-
-% \subsubsection*{Research Assistant}
-
+\subsection*{\bf Education}
 
 \begin{itemize}
   \item {
-    {\it Research Assistant}
-    \begin{itemize}
-      \item For Prof. Angelo Mele, Johns Hopkins University, 2021.
-      \item For Prof. Hashem Pesaran, University of Southern California, 2020.
-      \item For Prof. Hyungsik Roger Moon and Prof. Geert Ridder, University of Southern California, 2020.
-      \item For Prof. Zhentao Shi, The Chinese University of Hong Kong, 2015-18, 2020.
-      % \item For Prof. Kang Shi, The Chinese University of Hong Kong, 2018.
-      % \item For Engineering and Scientific Computing Center, Shenzhen Institute of Advanced Technology, Chinese Academy of Science, 2014.
-    \end{itemize}
+    Ph.D. in Economics, University of Southern California, 2024 (Expected)
+    % \begin{itemize}
+    %   \item {
+    %     {\it Advisors: Hyungsik Roger Moon (Chair), Geert Ridder, Timothy B. Armstrong, Cheng Hsiao}
+    %   }
+    % \end{itemize}
   }
+  \item {
+    M.Phil. in Economics, The Chinese University of Hong Kong, 2018
+    % \begin{itemize}
+    %   \item {{\it Advisor: Zhentao Shi}}
+    % \end{itemize}
+  }
+  \item B.S. in Mathematics, The Chinese University of Hong Kong, 2016
+\end{itemize}
+
+\subsection*{\bf Research Fields}
+\begin{itemize}
+  \item Econometrics, Applied Econometrics
+\end{itemize}
+
+
+\subsection*{\bf Publications}
+\begin{enumerate}
+  \item Lee, J. H., Shi, Z., \& Gao, Z. (2022) \href{https://www.sciencedirect.com/science/article/pii/S030440762100049X}{On LASSO for predictive regression}, forthcoming at \textit{Journal of Econometrics}.
+  \item Gao, Z., \& Shi, Z. (2021) \href{https://link.springer.com/article/10.1007/s10614-020-09995-z}{Implementing convex optimization in {\tt R}: Two econometric examples}, {\it Computational Economics}, 58, 1127-1135.
+\end{enumerate}
+
+\subsection*{\bf Working Papers}
+\begin{enumerate}[resume]
+  \item  Gao, Z. \& Pesaran, M. H. (2022) Identification and estimation of categorical random coefficient models. 
+  \item  Jo, J. H., Gao, Z., Jung, I., Moon, H. R., Ridder, G. \& Song, S. Y. (2021)  Copula graphic estimation of survival function with dependent censoring and its application to an analysis of pancreatic cancer clinical trial. \textit{Under Review}.
+\end{enumerate}
+
+
+\subsection*{\bf Software}
+
+\begin{itemize}
+  \item \texttt{R} package \href{https://github.com/zhan-gao/classo}{{\texttt{classo}}}: Implementing the Classifier-Lasso estimator.
+  \item \texttt{R} package \href{https://github.com/zhan-gao/LasForecast}{{\texttt{LasForecast}}}: Implementing Lasso-type methods for high-dimensional economic forecasting.
+\end{itemize}
+
+\subsection*{\bf Teaching Experience}
+\begin{itemize}
+  % \item {
+  %   {\it Instructor}
+  %   \begin{itemize}
+  %     \item {
+  %       The Missing Econometrics Course for Ph.D. Students, University of Southern California, Fall 2022.
+  %     }
+  %   \end{itemize}
+  % }
   \item {
     {\it Teaching Assistant}
     \begin{itemize}
       \item University of Southern California
       \begin{itemize}
-        \item ECON 613 {\it Economic and Financial Time Series} (Prof. Hashem Pesaran), Fall 2020.
-        \item ECON 419 {\it Advanced Econometrics} (Prof. Michael Leung), Fall 2019 \& Fall 2020.
-        \item ECON 457 {\it Financial Markets} (Prof. Ladan Masoudie) Spring 2020.
-        \item ECON 361 {\it Understanding Financial Crisis} (Prof. Juan Saavedra), Fall 2019.
+        \item ECON 609 {\it Econometric Methods} (Ph.D.) - Prof. Hyungsik Roger Moon, Spring 2022.
+        \item ECON 613 {\it Economic and Financial Time Series} (Ph.D.) - Prof. Hashem Pesaran, Fall 2020.
+        \item ECON 419 {\it Advanced Econometrics} (Undergrad.) - Prof. Michael Leung, Fall 2019 \& Fall 2020.
+        % \item ECON 457 {\it Financial Markets} (Prof. Ladan Masoudie) Spring 2020.
+        % \item ECON 361 {\it Understanding Financial Crisis} (Prof. Juan Saavedra), Fall 2019.
       \end{itemize}
       \item The Chinese University of Hong Kong
       \begin{itemize}
-        \item ECON 3121 {\it Introductory Econometrics} (Prof. Dinghai Xu), Spring 2018.
-        \item ECON 3410 {\it Financial Economics} (Prof. Kevin K. Tsui), Fall 2017.
-        \item ECON 1101/11 {\it Mathematical Economics I \& II} (Dr. Yung Chor Wing), Fall 2016 \& Spring 2017.
+        \item ECON 3121 {\it Introductory Econometrics} (Undergrad.) - Prof. Dinghai Xu, Spring 2018.
+        \item ECON 3410 {\it Financial Economics} (Undergrad.) - Prof. Kevin K. Tsui, Fall 2017.
+        % \item ECON 1101/11 {\it Mathematical Economics I \& II} (Dr. Yung Chor Wing), Fall 2016 \& Spring 2017.
       \end{itemize}
     \end{itemize}
   }
 \end{itemize}
 
-\subsection*{Honors \& Awards}
+
+
+\subsection*{\bf Research Experience}
+\begin{itemize}
+  \item {
+    {\it Research Assistant}
+    \begin{itemize}
+      \item For Prof. David Hirshleifer, University of Southern California, 2022.
+      \item For Prof. Angelo Mele, Johns Hopkins University, 2021.
+      \item For Prof. Hashem Pesaran, University of Southern California, 2020.
+      \item For Prof. Hyungsik Roger Moon and Prof. Geert Ridder, University of Southern California, 2020.
+    \end{itemize}
+  }
+  \item {
+    {\it Internship} 
+    \begin{itemize}
+      \item Summer Research Intern at Engineering and Scientific Computing Center, Shenzhen Institute of Advanced Technology, Chinese Academy of Science, 2014.
+    \end{itemize}
+  }
+\end{itemize}
+
+
+\subsection*{\bf Fellowships \& Awards}
 
 \begin{itemize}
 \item Center for Applied Financial Economics Graduate Fellowship (USC), 2021.
@@ -186,43 +228,57 @@
 \item Zhiyuan Scholarships (Soong Ch’ing-ling Funds),  2011 - 2015.
 \item Talent Development Scholarships (Hong Kong Government),  2014, 2016.
 \item 1978 Mathematics Alumnus Li Sze-lim Scholarships (CUHK), 2015.
-\item Champion of International Chinese Debating Competition (team member), 2014.
+\item Champion of International Chinese Debating Competition (team member of CUHK), 2014.
 \end{itemize}
 
-\subsection*{Professional Services}
-Organizing Committee: Southern California Graduate Conference in Applied Economics (SOCAE), 2020.
+% \subsection*{\bf Conference \& Presentations}
+% \begin{itemize}
+%   \item {
+%     \begin{tabular}{p{0.03\linewidth}p{0.92\linewidth}}
+%       \multicolumn{1}{l}{2022} & University of Southern California, 
+%       97th Annual Conference of the Western Economic Association International (scheduled)
+%     \end{tabular}
+%   }
+% \end{itemize}
 
-\subsection*{Skills}
+
+\subsection*{\bf Professional Services}
+{\it Referee Services}: \textit{Journal of Economic Interaction \& Coordination}\\
+{\it Organizing Committee}: Southern California Graduate Conference in Applied Economics (SOCAE), 2020.
+
+\subsection*{\bf Skills}
 
 \begin{itemize}
-  \item {\it Softwares and Programmings:} experienced in {\tt MATLAB} and {\tt R}; using {\tt Git} and {\tt Github} to manage and host source codes; familiar with {\tt Python}, {\tt Julia}, {\tt STATA}
-  \item {\it Languages:} Mandarin (native), English, Cantonese (fluent)
+  \item {\it Softwares and Programmings:} experienced in {\tt MATLAB} and {\tt R}; using {\tt Git} and {\tt Github} to manage and host source codes; familiar with {\tt Python}, {\tt Julia}
+  \item {\it Languages:} Mandarin (native), English (fluent)
 \end{itemize}
 
-% \section*{\bf References}
+
+% \subsection*{\bf Referemces}
+% % \section*{\bf References}
 
 % \begin{itemize}
 %   \item {
-%     \href{https://dornsife.usc.edu/hyungsik-roger-moon/}{Prof. Hyungsik Roger Moon}
+%     {Prof. Hyungsik Roger Moon}
 %     \begin{itemize}
-%       \item Professor of Economics, University of Southern California\\
-%             Email: {\tt moonr@usc.edu}
+%       \item Professor of Economics, Department of Economics, University of Southern California\\
+%             Email: \href{mailto:moonr@usc.edu}{\tt moonr@usc.edu}
 %     \end{itemize}
 %   }
 %   \item {
-%     \href{http://www.econ.cam.ac.uk/people/emeritus/mhp1}{Prof. M. Hashem Pesaran}
+%     {Prof. M. Hashem Pesaran}
 %     \begin{itemize}
 %       \item John Elliot Distinguished Chair in Economics, and
 %       Director of USC Dornsife Center for Applied Financial Economics (CAFE), University of Southern California\\
 %       Fellow of Trinity College, and Emeritus Professor of Economics, University of Cambridge\\
-%       Email: {\tt pesaran@usc.edu}
+%       Email: \href{mailto:pesaran@usc.edu}{\tt pesaran@usc.edu}
 %     \end{itemize}
 %   }
 %   \item {
-%     \href{http://zhentaoshi.github.io}{Prof. Zhentao Shi}
+%     {Prof. Zhentao Shi}
 %     \begin{itemize}
-%       \item Associate Professor, The Chinese University of Hong Kong\\
-%       Email: {\tt zhentao.shi@cuhk.edu.hk}
+%       \item Associate Professor, Georgia Institute of Technology\\
+%       Email: \href{mailto:zhentao.shi@gatech.edu}{\tt zhentao.shi@gatech.edu}
 %     \end{itemize}
 %   }
 % \end{itemize}
