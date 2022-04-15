@@ -8,8 +8,8 @@ author_profile: true
 {% include base_path %}
 
 ## Working Papers
--  [Mar 2022] "Identification and Estimation of Categorical Coefficient Models" with [M. Hashem Pesaran](http://pesaran.com/). *Draft coming soon.*
--  [Dec 2021] "Copula Graphic Estimation of Survival Function with Dependent Censoring and its Application to an Analysis of Pancreatic Cancer Clinical Trial", with [Jung Hyun Jo](https://scholar.google.co.kr/citations?user=8fpu8j0AAAAJ&hl=ko), [Inkyung Jung](https://ir.ymlib.yonsei.ac.kr/researcher-profile?ep=3502&type=1), [Hyungsik Roger Moon](https://dornsife.usc.edu/hyungsik-roger-moon/), [Geert Ridder](https://dornsife.usc.edu/cf/econ/econ_faculty_display.cfm?Person_ID=1003639) and [Si Young Song](https://orcid.org/0000-0002-1417-4314). *Under review*.
+- [Apr 2022] "Identification and Estimation of Categorical Coefficient Models," with [M. Hashem Pesaran](http://pesaran.com/). *Submitted*. \[[*Cambridge Working Papers in Economics, CWPE2228*](https://www.econ.cam.ac.uk/research/cwpe-abstracts?cwpe=2228)\]\[[R package](https://zhan-gao.github.io/)\]\[[code](https://github.com/zhan-gao)\]
+- [Dec 2021] "Copula Graphic Estimation of Survival Function with Dependent Censoring and its Application to an Analysis of Pancreatic Cancer Clinical Trial," with [Jung Hyun Jo](https://scholar.google.co.kr/citations?user=8fpu8j0AAAAJ&hl=ko), [Inkyung Jung](https://ir.ymlib.yonsei.ac.kr/researcher-profile?ep=3502&type=1), [Hyungsik Roger Moon](https://dornsife.usc.edu/hyungsik-roger-moon/), [Geert Ridder](https://dornsife.usc.edu/cf/econ/econ_faculty_display.cfm?Person_ID=1003639) and [Si Young Song](https://orcid.org/0000-0002-1417-4314). *Under review*.
 
 ## Publications
 
