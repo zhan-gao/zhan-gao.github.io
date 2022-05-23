@@ -40,8 +40,3 @@ author_profile: true
 - R package [LasForecast]( https://github.com/zhan-gao/LasForecast) (*under development*)
   - Implement time series forecasting with Lasso-type shrinkage methods. 
 - [An illustration](https://github.com/zhan-gao/BubbleTest) of implementing bubble testing based on [Phillips, Shi and Yu (2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/iere.12132) and the [`MultipleBubbles`](https://rdrr.io/cran/MultipleBubbles/) package. 
-  - <details>
-      <summary>Demonstration</summary>
-
-      ![A pic](https://github.com/zhan-gao/BubbleTest/raw/master/SPX_combine.png)
-    </details>
