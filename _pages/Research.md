@@ -8,25 +8,82 @@ author_profile: true
 {% include base_path %}
 
 ## Working Papers
-- [Apr 2022] "Identification and Estimation of Categorical Random Coefficient Models," with [M. Hashem Pesaran](http://pesaran.com/). *Submitted*. \[[*Cambridge Working Papers in Economics, CWPE2228*](https://www.econ.cam.ac.uk/research/cwpe-abstracts?cwpe=2228)\]\[[CESifo Working Paper No. 9714](https://www.cesifo.org/en/publikationen/2022/working-paper/identification-and-estimation-categorical-random-coefficient)\]\[[R package](https://github.com/zhan-gao/ccrm)\] 
-<details>
+- [Apr 2022] "Identification and Estimation of Categorical Random Coefficient Models," with [M. Hashem Pesaran](http://pesaran.com/). *Submitted*. \[[*Cambridge Working Papers in Economics, CWPE2228*](https://www.econ.cam.ac.uk/research/cwpe-abstracts?cwpe=2228)\]\[[CESifo Working Paper No. 9714](https://www.cesifo.org/en/publikationen/2022/working-paper/identification-and-estimation-categorical-random-coefficient)\]\[[R package](https://github.com/zhan-gao/ccrm)\] <details>
     <summary>Abstract</summary>
 
   	This paper proposes a linear categorical random coefficient model, in which the random coefficients follow parametric categorical distributions. The distributional parameters are identified based on a linear recurrence structure of moments of the random coefficients. A Generalized Method of Moments estimator is proposed, and its finite sample properties are examined using Monte Carlo simulations. The utility of the proposed method is illustrated by estimating the distribution of returns to education in the U.S. by gender and educational levels. We find that rising heterogeneity between educational groups is mainly due to the increasing returns to education for those with postsecondary education, whereas within group heterogeneity has been rising mostly in the case of individuals with high school or less education.
 </details>
 
-
 - [Dec 2021] "Copula Graphic Estimation of Survival Function with Dependent Censoring and its Application to an Analysis of Pancreatic Cancer Clinical Trial," with [Jung Hyun Jo](https://scholar.google.co.kr/citations?user=8fpu8j0AAAAJ&hl=ko), [Inkyung Jung](https://ir.ymlib.yonsei.ac.kr/researcher-profile?ep=3502&type=1), [Hyungsik Roger Moon](https://dornsife.usc.edu/hyungsik-roger-moon/), [Geert Ridder](https://dornsife.usc.edu/cf/econ/econ_faculty_display.cfm?Person_ID=1003639) and [Si Young Song](https://orcid.org/0000-0002-1417-4314). *Under review*.
 
 ## Publications
 
-- [2022] "[On LASSO for Predictive Regression](https://www.sciencedirect.com/science/article/pii/S030440762100049X)," with [Ji Hyung Lee](https://sites.google.com/site/jihyung412/home) and [Zhentao Shi](https://zhentaoshi.github.io/). *Journal of Econometrics*. [[supplement](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/LSG_supp.pdf)\][[code](https://github.com/zhan-gao/Alasso_Predictive_Regression)\]\[[arXiv: 1810.03140](https://arxiv.org/abs/1810.03140)\][[slides](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/alasso_slides_online.pdf)\]
-- [2021] "[Implementing Convex Optimization in R: Two Econometric Examples](https://link.springer.com/article/10.1007/s10614-020-09995-z)," with [Zhentao Shi](https://zhentaoshi.github.io/). *Computational Economics*, 58, 1127-1135. [[supplement](https://github.com/zhan-gao/convex_prog_in_econometrics/blob/master/main_supp_lyx.pdf)\][[code](https://github.com/zhan-gao/convex_prog_in_econometrics)]\[[arXiv: 1806.10423](https://arxiv.org/abs/1806.10423)\]
+- [2022] "[On LASSO for Predictive Regression](https://www.sciencedirect.com/science/article/pii/S030440762100049X)," with [Ji Hyung Lee](https://sites.google.com/site/jihyung412/home) and [Zhentao Shi](https://zhentaoshi.github.io/). *Journal of Econometrics*. [[supplement](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/LSG_supp.pdf)\][[code](https://github.com/zhan-gao/Alasso_Predictive_Regression)\]\[[arXiv: 1810.03140](https://arxiv.org/abs/1810.03140)\][[slides](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/alasso_slides_online.pdf)\]<details>
+    <summary>Abstract</summary>
+
+  	Explanatory variables in a predictive regression typically exhibit low signal strength and various degrees of persistence. Variable selection in such a context is of great importance. In this paper, we explore the pitfalls and possibilities of the LASSO methods in this predictive regression framework. In the presence of stationary, local unit root, and cointegrated predictors, we show that the adaptive LASSO cannot asymptotically eliminate all cointegrating variables with zero regression coefficients. This new finding motivates a novel post-selection adaptive LASSO, which we call the twin adaptive LASSO (TAlasso), to restore variable selection consistency. Accommodating the system of heterogeneous regressors, TAlasso achieves the well-known oracle property. In contrast, conventional LASSO fails to attain coefficient estimation consistency and variable screening in all components simultaneously. We apply these LASSO methods to evaluate the short- and long-horizon predictability of S&P 500 excess returns.
+</details>
+
+- [2021] "[Implementing Convex Optimization in R: Two Econometric Examples](https://link.springer.com/article/10.1007/s10614-020-09995-z)," with [Zhentao Shi](https://zhentaoshi.github.io/). *Computational Economics*, 58, 1127-1135. [[supplement](https://github.com/zhan-gao/convex_prog_in_econometrics/blob/master/main_supp_lyx.pdf)\][[code](https://github.com/zhan-gao/convex_prog_in_econometrics)]\[[arXiv: 1806.10423](https://arxiv.org/abs/1806.10423)\]<details>
+    <summary>Abstract</summary>
+
+  	Economists specify high-dimensional models to address heterogeneity in empirical studies with complex big data. Estimation of these models calls for optimization techniques to handle a large number of parameters. Convex problems can be effectively executed in modern statistical programming languages. We complement Koenker and Mizera (2014)'s work on numerical implementation of convex optimization, with focus on high-dimensional econometric estimators. Combining R and the convex solver MOSEK achieves faster speed and equivalent accuracy, demonstrated by examples from Su, Shi, and Phillips (2016) and Shi (2016). Robust performance of convex optimization is witnessed cross platforms. The convenience and reliability of convex optimization in R make it easy to turn new ideas into prototypes. 
+</details>
 
 ## Software
 
 - R package [classo]( https://github.com/zhan-gao/classo ) (*under development*)
-  - Implement Classified-Lasso proposed in  Su, Shi and Phillips (2016): ["Identifying latent structures in panel data"](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12560), *Econometrica*, *84*(6), 2215-2264.
+  
+  Implement Classified-Lasso proposed in  Su, Shi and Phillips (2016): ["Identifying latent structures in panel data"](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12560), *Econometrica*, *84*(6), 2215-2264. 
+  <details>
+    <summary>Demonstration</summary>
+
+  The sample data is generated by DGP 1 described in Su, Shi and Phillips (2016) with N = 200 and T = 25.
+  ```r
+  data("sample_data")
+  # CAVEAT: Please convert data.frame to matrix to proceed.
+  y <- as.matrix(sample_data[, 1])
+  x <- as.matrix(sample_data[, -1])
+  n <- 200
+  tt <- 25
+  lambda <- as.numeric( 0.5 * var(y) / (tt^(1/3)) )
+  pls_out <- PLS.cvxr(n, tt, y, x, K = 3, lambda = lambda)
+
+  # Use Rmosek if it is successfully installed
+  # pls_out <- PLS.mosek(n, tt, y, x, K = 3, lambda = lambda)
+
+  # estimated slope for each group. True coefficients: [1,1; 0.4,1.6; 1.6,0.4]
+  pls_out$a.out 
+  ```
+  ```
+            [,1]      [,2]
+  [1,] 1.0387521 0.9986867
+  [2,] 0.4017041 1.6014119
+  [3,] 1.6197497 0.3614408
+  ```
+  ```R
+  # Estimated group structure
+  # True group structure:
+  # 	group 2: 1 - 60
+  # 	group 1: 61 - 120
+  # 	group 3: 121 - 200
+  pls_out$group.est
+  ```
+  ```
+    [1] 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+   [33] 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1
+   [65] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1
+   [97] 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3
+  [129] 3 3 3 3 3 1 3 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+  [161] 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+  [193] 3 3 3 3 3 3 3 3
+  ```
+</details>
+
 - R package [LasForecast]( https://github.com/zhan-gao/LasForecast) (*under development*)
   - Implement time series forecasting with Lasso-type shrinkage methods. 
-- [An illustration](https://github.com/zhan-gao/BubbleTest) of implementing bubble testing based on [Phillips, Shi and Yu (2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/iere.12132) and the [`MultipleBubbles`](https://rdrr.io/cran/MultipleBubbles/) package.
+- [An illustration](https://github.com/zhan-gao/BubbleTest) of implementing bubble testing based on [Phillips, Shi and Yu (2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/iere.12132) and the [`MultipleBubbles`](https://rdrr.io/cran/MultipleBubbles/) package. <details>
+    <summary>Demonstration</summary>
+
+    ![A pic](https://github.com/zhan-gao/BubbleTest/raw/master/SPX_combine.png)
+</details>
