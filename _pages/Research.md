@@ -19,12 +19,12 @@ author_profile: true
 
 ## Publications
 
-- [2022] "[On LASSO for Predictive Regression](https://www.sciencedirect.com/science/article/pii/S030440762100049X)," with [Ji Hyung Lee](https://sites.google.com/site/jihyung412/home) and [Zhentao Shi](https://zhentaoshi.github.io/). *Journal of Econometrics*. [[supplement](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/LSG_supp.pdf)\][[code](https://github.com/zhan-gao/Alasso_Predictive_Regression)\]\[[arXiv: 1810.03140](https://arxiv.org/abs/1810.03140)\][[slides](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/alasso_slides_online.pdf)\]
+- [2022] "[On LASSO for Predictive Regression](https://www.sciencedirect.com/science/article/pii/S030440762100049X)," with [Ji Hyung Lee](https://sites.google.com/site/jihyung412/home) and [Zhentao Shi](https://zhentaoshi.github.io/). *Journal of Econometrics*,  *229*(2), 322-349. [[supplement](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/LSG_supp.pdf)\][[code](https://github.com/zhan-gao/Alasso_Predictive_Regression)\]\[[arXiv: 1810.03140](https://arxiv.org/abs/1810.03140)\][[slides](https://github.com/zhan-gao/Alasso_Predictive_Regression/blob/master/alasso_slides_online.pdf)\]
+  
   - <details>
       <summary>Abstract</summary>
-
   	  Explanatory variables in a predictive regression typically exhibit low signal strength and various degrees of persistence. Variable selection in such a context is of great importance. In this paper, we explore the pitfalls and possibilities of the LASSO methods in this predictive regression framework. In the presence of stationary, local unit root, and cointegrated predictors, we show that the adaptive LASSO cannot asymptotically eliminate all cointegrating variables with zero regression coefficients. This new finding motivates a novel post-selection adaptive LASSO, which we call the twin adaptive LASSO (TAlasso), to restore variable selection consistency. Accommodating the system of heterogeneous regressors, TAlasso achieves the well-known oracle property. In contrast, conventional LASSO fails to attain coefficient estimation consistency and variable screening in all components simultaneously. We apply these LASSO methods to evaluate the short- and long-horizon predictability of S&P 500 excess returns.
-    </details>
+  	</details>
 
 - [2021] "[Implementing Convex Optimization in R: Two Econometric Examples](https://link.springer.com/article/10.1007/s10614-020-09995-z)," with [Zhentao Shi](https://zhentaoshi.github.io/). *Computational Economics*, 58, 1127-1135. [[supplement](https://github.com/zhan-gao/convex_prog_in_econometrics/blob/master/main_supp_lyx.pdf)\][[code](https://github.com/zhan-gao/convex_prog_in_econometrics)]\[[arXiv: 1806.10423](https://arxiv.org/abs/1806.10423)\]
   - <details>
