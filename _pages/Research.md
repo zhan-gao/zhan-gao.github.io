@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 ## Working Papers
-- [Feb 2023] "Identification and Estimation of Categorical Random Coefficient Models," with [M. Hashem Pesaran](http://pesaran.com/). Resubmitted to *Empirical Economics*. \[[*Cambridge Working Papers in Economics, CWPE2228*](https://www.econ.cam.ac.uk/research/cwpe-abstracts?cwpe=2228)\]\[[CESifo Working Paper No. 9714](https://www.cesifo.org/en/publikationen/2022/working-paper/identification-and-estimation-categorical-random-coefficient)\]\[[R package](https://github.com/zhan-gao/ccrm)\] 
+- [Feb 2023] "Identification and Estimation of Categorical Random Coefficient Models," with [M. Hashem Pesaran](http://pesaran.com/). Revise and resubmit at *Empirical Economics*. \[[*Cambridge Working Papers in Economics, CWPE2228*](https://www.econ.cam.ac.uk/research/cwpe-abstracts?cwpe=2228)\]\[[CESifo Working Paper No. 9714](https://www.cesifo.org/en/publikationen/2022/working-paper/identification-and-estimation-categorical-random-coefficient)\]\[[R package](https://github.com/zhan-gao/ccrm)\] 
 
 ## Publications
 
