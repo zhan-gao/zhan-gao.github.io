@@ -10,7 +10,7 @@ redirect_from:
 
 
 
-🎓 I am a Ph.D. student in the [Department of Economics, University of Southern California](https://dornsife.usc.edu/econ/about-us/) (USC). Before coming to LA, I received M.Phil in Economics (18') and B.Sc. in Mathematics (16') from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html) (CUHK).
+🎓 I am a Ph.D. student in the [Department of Economics, University of Southern California](https://dornsife.usc.edu/econ/about-us/). Before coming to LA, I received M.Phil in Economics (18') and B.Sc. in Mathematics (16') from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html).
 
 💬  `zhangao [at] usc [dot] edu`  \|  `gaozhan [dot] cuhk [at] gmail [dot] com`
 

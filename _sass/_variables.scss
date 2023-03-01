@@ -87,10 +87,12 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-
+$oxford-color               : #002147;
+$usc-color                  : #990000;
+$yale-color                 : #0f4d92;
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : $yale-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
